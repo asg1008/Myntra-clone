@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.left img {
+  width: 32px;
+  height: 32px;
+}
+
+.container {
+  padding: 0 10vw;
+  width: 87vw;
+}
+
+.containerHeader {
+  padding: 0 10vw;
+
+}
+
+
+nav {
+  font-size: 12px;
+  padding-top: 14px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 12px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background: white;
+  height: 122px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.section1 {
+  background: #f2f1f3;
+  padding-top: 21vw;
+  padding-bottom: 2vw;
+}
+
+.search {
+  width: 32vw;
+  padding: 10px 17px;
+  border: 0.5px solid #b7b6b9;
+  background: #fafafa;
+  border-radius: 5px;
+}
+
+.home {
+  width: 85vw;
+  margin: 10px -7px;
+  margin-top: 70px;
+}
+
+.home2 {
+  width: 87vw;
+  margin: 10px -7px;
+  padding: 0 10vw;
+}
+
+.itemImg {
+  width: 8.8vw;
+  margin: 17px 0px;
+}
+
+.itemImg1 {
+  width: 16vw;
+  margin: 17px 0px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+footer .logo {
+  padding-bottom: 30px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i {
+  color: #9e8a8a;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+
+}
+
+.tall {
+  min-height: 40vh;
+}
+
+@media (max-width: 499px) {
+  .search {
+    width: 72vw;
+  }
+}
+
+.rightBox {
+  display: flex;
+  margin: 12px;
+}
+
+@media (max-width: 1550px) {
+
+  nav ul li {
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+  }
+
+  .containerHeader {
+    padding: 50px 50px;
+  }
+
+  header {
+    height: 122px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right {
+    flex-direction: column;
+  }
+
+  .rightBox {
+    display: flex;
+    margin: 12px;
+  }
+}
